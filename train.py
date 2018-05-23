@@ -63,3 +63,7 @@ else:
 
 with open(args.model, 'w') as file:
     json.dump(d, file)
+
+
+if __name__ == "__main__":
+    main()
